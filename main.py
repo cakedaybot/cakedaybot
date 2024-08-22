@@ -25,10 +25,10 @@ def authenticate():
   print("Authenticating...")
   reddit=praw.Reddit(
     username = 'cakeday___bot',
-    password = 'Sainani@2064',
-    client_id = 'C4qJ6kHE8pyU6eGgsgzIrw',
-    client_secret = 'Fzjmw5W6STpRlxiqGhPpqqu0zHCJjA',
-    user_agent = "CakeDay Bot (by /u/Poseidon567)"
+    password = '',
+    client_id = '',
+    client_secret = '',
+    user_agent = "CakeDay Bot"
   )
   return reddit
 
